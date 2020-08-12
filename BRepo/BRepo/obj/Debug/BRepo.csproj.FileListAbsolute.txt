@@ -1,0 +1,1 @@
+D:\ACSharp\BRepo\BRepo\obj\Debug\BRepo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+D:\ACSharp\BRepo\BRepo\bin\x64\Debug\BRepo.dll
+D:\ACSharp\BRepo\BRepo\bin\x64\Debug\BRepo.pdb
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.dll
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.pdb
