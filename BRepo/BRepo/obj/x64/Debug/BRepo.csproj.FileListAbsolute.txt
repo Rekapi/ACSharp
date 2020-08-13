@@ -2,3 +2,7 @@ D:\ACSharp\BRepo\BRepo\bin\x64\Debug\BRepo.dll
 D:\ACSharp\BRepo\BRepo\bin\x64\Debug\BRepo.pdb
 D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.dll
 D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.pdb
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.csprojResolveAssemblyReference.cache
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\Interop.AutoCAD.dll
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\Interop.AXDBLib.dll
+D:\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.csproj.ResolveComReference.cache
