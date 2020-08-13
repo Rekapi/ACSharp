@@ -19,7 +19,6 @@ namespace BRepo
     class CtrlCadAppWindow
     {
      // command for minimize and maximize the window
-     [CommandMethod("MinMaxApp")]
      public void Min_max_Window()
         {
             // Minimize the application window

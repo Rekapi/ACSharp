@@ -70,5 +70,17 @@ namespace BRepo
                 }
             }
         }
+        [CommandMethod("MinMaxApp")]
+        public static void Call()
+        {
+            CtrlCadAppWindow ctcad = new CtrlCadAppWindow();
+            ctcad.Min_max_Window();
+        }
+        [CommandMethod("VVA")]
+        public static void ViewPortArr()
+        {
+            ViewPort acVp = new ViewPort();
+            acVp.Create_Mode_ViewPort();
+        }
     }
 }
