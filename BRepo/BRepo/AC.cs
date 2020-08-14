@@ -88,5 +88,11 @@ namespace BRepo
             DrawingControl dwgctrl = new DrawingControl();
             dwgctrl.open_cad_file();
         }
+        [CommandMethod("SavingActiveDocument")]
+        public static void Save_Active_Doc()
+        {
+            DrawingControl dwgctrl = new DrawingControl();
+            dwgctrl.save_cad_file();
+        }
     }
 }

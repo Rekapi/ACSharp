@@ -30,5 +30,24 @@ namespace BRepo
                 docCol.MdiActiveDocument.Editor.WriteMessage("File " + strFileName + " does not exit.");
             }
         }
+        
+        // This example saves tthe active drawing to "c:\MyDrawing.dwg" if it is currently not saved under its current name. 
+        public void save_cad_file()
+        {
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            String strDwgName = doc.Name;
+
+            object obj = Application.GetSystemVariable("DWGTITLED");
+
+            // check to see if the drawing has been named 
+            if(System.Convert.ToInt16(obj) == 0)
+            {
+                // if the drawing is using a default name (Drawing1, Drawing2, etc)
+                // then provide a new name 
+                strDwgName = "c:\\MyDrawing.dwg";
+            }
+            // save the active drawing 
+            doc.Database.SaveAs(strDwgName, true, DwgVersion.Current, doc.Database.SecurityParameters);
+        }
     }
 }
