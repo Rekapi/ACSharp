@@ -82,6 +82,7 @@
     <Compile Include="AC.cs" />
     <Compile Include="AutoMate.cs" />
     <Compile Include="CtrlCadAppWindow.cs" />
+    <Compile Include="DrawingControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewPort.cs" />
   </ItemGroup>

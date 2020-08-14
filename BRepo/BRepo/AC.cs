@@ -82,5 +82,11 @@ namespace BRepo
             ViewPort acVp = new ViewPort();
             acVp.Create_Mode_ViewPort();
         }
+        [CommandMethod ("OpenDwg", CommandFlags.Session)]
+        public static void Open_Cad_File()
+        {
+            DrawingControl dwgctrl = new DrawingControl();
+            dwgctrl.open_cad_file();
+        }
     }
 }
