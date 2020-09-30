@@ -94,5 +94,19 @@ namespace BRepo
             DrawingControl dwgctrl = new DrawingControl();
             dwgctrl.save_cad_file();
         }
+        // poly line filter
+        [CommandMethod("PolyLineCount")]
+        public static void Count_Poly()
+        {
+            PolyLineArea Poly_count = new PolyLineArea();
+            Poly_count.calc_Area();
+        }
+        // Text Filter 
+        [CommandMethod("TextCount")]
+        public static void Num_text()
+        {
+            TextFiltr TxtFilter = new TextFiltr();
+            TxtFilter.Filt_text();
+        }
     }
 }

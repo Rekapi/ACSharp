@@ -13,4 +13,3 @@ D:\ACSharp\ACSharp\BRepo\BRepo\obj\x64\Debug\Interop.AXDBLib.dll
 D:\ACSharp\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.csproj.ResolveComReference.cache
 D:\ACSharp\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.dll
 D:\ACSharp\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.pdb
-D:\ACSharp\ACSharp\BRepo\BRepo\obj\x64\Debug\BRepo.csprojResolveAssemblyReference.cache
